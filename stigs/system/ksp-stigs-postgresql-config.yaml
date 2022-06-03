@@ -8,7 +8,7 @@ metadata:
   name: ksp-stig-postgresql-config
   namespace: default # Change your namespace
 spec:
-  tags: ["STIG", "PSQL"]
+  tags: ["STIG", "PostgreSQL"]
   message: "Notification! PostgreSQL Config Files has been accessed"
   selector:
     matchLabels:
