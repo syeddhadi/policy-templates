@@ -9,7 +9,7 @@ metadata:
   name: ksp-block-stig-psql-v-214082
   namespace: default # Change your namespace
 spec:
-  tags: ["STIG", "PSQL","V-214082"]
+  tags: ["STIG", "PostgreSQL","V-214082"]
   message: "Alert! Configs and logs file access has been denied."
   selector:
     matchLabels:
